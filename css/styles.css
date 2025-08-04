@@ -22,11 +22,15 @@ input{
     padding: 10px 0;
    
 }
+textarea{
+    padding: 10px 5px; 
+}
 /* modifica somente um tipo especifico de input*/
 input[type="text"],
 input[type="number"],
 input[type="date"],
-input[type="file"]
+input[type="file"],
+textarea
 {
     width: 400px;
 }
