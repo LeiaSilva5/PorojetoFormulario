@@ -73,11 +73,123 @@
                         required>
 
                     </div>
-                    <input type="submit" value="enviar">
+                    <div class="box-input">
+                        <p>Tipo de câmbio <span class="required-field">*</span></p>
+                        <input type="radio" name="gear" id="manual">
+                        <label for="manual">Manual</label>
+
+                        <input type="radio" name="gear" id="Auto">
+                        <label for="Auto">Automatico</label>
+
+                    </div>
+                     <div class="optional-box">
+                        <p>Opcionais</p>
+                        <ul class="optionals-list">
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="airbag" 
+                                value="Airbag">
+
+                                <label for="airbag">Airbag</label>
+                            </li>
+
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="alarm" 
+                                value="alarm">
+
+                                <label for="alarm">alarme</label>
+                            </li>
+
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="ac" 
+                                value="ac">
+
+                                <label for="ac">Ar-condicionado</label>
+                            </li>
+
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="reverse-camera" 
+                                value="reverse-camera">
+
+                                <label for="reverse-camera"> Câmera de ré</label>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="optional-box">
+                        <ul class="optionals-list">
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="lane-assist" 
+                                value="lane-assist">
+
+                                <label for="lane-assist">Assistente de pista</label>
+                            </li>
+
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="keyless" 
+                                value="keyless">
+
+                                <label for="keyless">Partida Keyless</label>
+                            </li>
+
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="smartphone" 
+                                value="smartphone">
+
+                                <label for="smartphone">Integração com o celular</label>
+                            </li>
+
+                            <li>
+                                <input 
+                                type="checkbox" 
+                                name="optional[]" 
+                                id="leather-seat" 
+                                value="leather-seat">
+
+                                <label for="leather-seat">Banco de Couro</label>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="box-input">
+                        <p>Fotos do vaículo<span class="required-field">*</span></p>
+                        <input 
+                        type="file" 
+                        multiple 
+                        accept="image/png, image/jpg" 
+                        name="image" 
+                        id="image" 
+                        required>
+                    </div>
+                    <input type="submit" value="enviar" class="btn-submit">
                 </form>
             </div>
-            
+          
         </div>
     </div>
+    
 </body>
 </html>
